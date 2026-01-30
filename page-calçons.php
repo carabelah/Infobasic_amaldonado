@@ -8,13 +8,15 @@ $bg = get_the_post_thumbnail_url(get_the_ID(), 'full');
 ?>
 
 <div class="jumbotron jumbotron-fluid text-white py-5 mb-5"
-    style="background-image: url('<?php echo esc_url($bg); ?>'); 
-            background-size: cover; 
+    style="background-image: url('<?php echo esc_url($bg); ?>');
+            background-size: cover;
             background-position: center;">
     <div class="bg-dark bg-opacity-50 py-5">
         <div class="container text-center">
             <h2 class="display-4 mb-4"><?php the_title(); ?></h2>
-            <p class="lead mb-5">Descobreix els nostres calçons còmodes i de qualitat.</p>
+            <p class="lead mb-0">
+                Descobreix els nostres calçons còmodes i de qualitat.
+            </p>
         </div>
     </div>
 </div>

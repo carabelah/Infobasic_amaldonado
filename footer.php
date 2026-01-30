@@ -1,7 +1,7 @@
 </main>
 
-<footer id="site-footer" class="bg-light py-4">
-    <div class="container text-center">
+<footer id="site-footer">
+    <div class="my-container text-center">
 
         <?php if (has_nav_menu('footer-menu')) : ?>
             <nav class="footer-nav mb-3">
